@@ -1,0 +1,21 @@
+{
+    "name": "tetration/numbers",
+    "description": "Just numbers! A NumPy like library for PHP",
+    "type": "library",
+    "require": {
+        "php": "8.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tetration\\Numbers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Achraf Soltani",
+            "email": "achraf.soltani@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
